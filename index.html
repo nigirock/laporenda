@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <title></title>
+    <title>Лапоренда.бай</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -15,9 +15,55 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <div class="container-fluid no_padding">
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="collapsed navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-9" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button> <a href="#" class="navbar-brand">Laporenda.by</a> </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-9">
+                    <ul class="nav navbar-nav">
+                        <li class="active">
+                            <a href="index.html">Главная</a>
+                        </li>
+                        <li>
+                            <a href="instrument.html">Аренда</a>
+                        </li>
+                        <li>
+                            <a href="#">Контакты</a>
+                        </li>
+                    </ul>
 
-
+                    <span class="glyphicon glyphicon-phone-alt navbar-right navbar-brand phone" aria-hidden="true"> 8-029-2524646 (МТС)</span>
+                </div>
+            </div>
+        </nav>
+        <section class="main container-fluid no_padding">
+            <video autoplay loop muted class="bgvideo col-md-12 no_padding" id="bgvideo">
+                <source src="img/video.mp4" type="video/mp4"></source>
+            </video>
+            <div class="inner">
+                <h1>Аренда инструмента в д.Лапоровичи ул.Центральная 64А</h1>
+                <h3>Основные преимущества пользования услугой аренда инструмента:</h3>
+                <ul>
+                    <li>исключение затрат на содержание техники;</li>
+                    <li>использование оборудования только тогда, когда оно действительно необходимо;</li>
+                    <li>отсутствие необходимости ремонта инструментов;</li>
+                    <li>возможность проверить прибор перед покупкой;</li>
+                    <li>исключение трат на утилизацию, замену устаревшей техники.</li>
+                </ul>
+                <h4>Возможна доставка</h4>
+                <a href="instrument.html" class="btn btn-default btn-lg">Перейти в каталог</a>
+            </div>
+        </section>
+    </div>
 <script src=js/jquery.min.js></script>
 <script src=js/bootstrap.min.js></script>
+<script src="js/handlebars.min.js"></script>
+<script src="js/app.js"></script>
 </body>
 </html>
