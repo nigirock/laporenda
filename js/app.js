@@ -2,6 +2,7 @@ $(document).ready(function () {
 // Инициализируем объект с данными
     var data = { instrument: [
         {
+            /* =========== Шуруповерт ==============*/
             nameInstr: 'Шуруповерт',
             brandInstr: 'DeWalt',
             modelInstr: 'DCD771C2',
@@ -21,6 +22,7 @@ $(document).ready(function () {
             image: 'img/DCD771C2-.jpg',
             price: "8"
         },
+        /* =========== Перфоратор ==============*/
         {
             nameInstr: 'Перфоратор',
             brandInstr: 'DeWalt',
@@ -41,6 +43,7 @@ $(document).ready(function () {
             image: 'img/D25144K.jpg',
             price: "7"
         },
+        /* =========== Отбойный молоток ==============*/
         {
             nameInstr: 'Отбойный молоток',
             brandInstr: 'Stanley',
@@ -56,6 +59,7 @@ $(document).ready(function () {
             image: 'img/STHM10K.jpg',
             price: "14"
         },
+        /* =========== Болгарка малая ==============*/
         {
             nameInstr: 'Болгарка (УШМ)',
             brandInstr: 'DeWalt',
@@ -71,6 +75,7 @@ $(document).ready(function () {
             image: 'img/D28136-.jpg',
             price: "7"
         },
+        /* =========== Болгарка большая ==============*/
         {
             nameInstr: 'Болгарка (УШМ)',
             brandInstr: 'Stanley',
@@ -86,6 +91,7 @@ $(document).ready(function () {
             image: 'img/STGL2223.jpg',
             price: "8"
         },
+        /* =========== Виброшлифмашина ==============*/
         {
             nameInstr: 'Виброшлифмашина ',
             brandInstr: 'Stanley',
@@ -101,6 +107,7 @@ $(document).ready(function () {
             image: 'img/STSS025.jpg',
             price: "5"
         },
+        /* =========== Ленточная шлифмашинка ==============*/
         {
             nameInstr: 'Ленточная шлифмашинка',
             brandInstr: 'Stanley',
@@ -116,8 +123,9 @@ $(document).ready(function () {
             image: 'img/STBS720.jpg',
             price: "9"
         },
+        /* =========== Циркулярная пила ==============*/
         {
-            nameInstr: 'Циркулярная пила  ',
+            nameInstr: 'Циркулярная пила',
             brandInstr: 'Stanley',
             modelInstr: 'STSC1718',
             description:[
@@ -133,6 +141,7 @@ $(document).ready(function () {
             image: 'img/STSC1718.jpg',
             price: "9"
         },
+        /* =========== Электрорубанок ==============*/
         {
             nameInstr: 'Электрорубанок',
             brandInstr: 'Stanley',
@@ -150,6 +159,7 @@ $(document).ready(function () {
             image: 'img/STPP7502.jpg',
             price: "8"
         },
+        /* =========== Лобзик ==============*/
         {
             nameInstr: 'Лобзик',
             brandInstr: 'Stanley',
@@ -168,6 +178,7 @@ $(document).ready(function () {
             image: 'img/STSJ0600_1.jpg',
             price: "7"
         },
+        /* =========== Сабельная пила ==============*/
         {
             nameInstr: 'Сабельная пила',
             brandInstr: 'BOSCH',
@@ -182,6 +193,23 @@ $(document).ready(function () {
             image: 'img/GSA1100E.jpg',
             price: "10"
         },
+        /* =========== Фрезер ==============*/
+        {
+            nameInstr: 'Фрезер',
+            brandInstr: 'Bosch',
+            modelInstr: 'POF 1400',
+            description:[
+                'Мощность 1 400 Вт',
+                'Тип вертикальный',
+                'Рабочий ход (глубина) 55 мм',
+                'Частота вращения (холостой ход) 11 000 — 28 000 об/мин',
+                'Диаметр хвостовика фрезы 6 мм, 8 мм',
+                'Вес 3.5 кг'
+            ],
+            image: 'img/фрезер.jpg',
+            price: "9"
+        },
+        /* =========== Торцовочная пила ==============*/
         {
             nameInstr: 'Торцовочная пила',
             brandInstr: 'Stanley',
@@ -201,6 +229,23 @@ $(document).ready(function () {
             image: 'img/STSM1510.jpg',
             price: "12"
         },
+        /* =========== Плиткорез ==============*/
+        {
+            nameInstr: 'Плиткорез',
+            brandInstr: 'Stanley',
+            modelInstr: 'STSP125',
+            description:[
+                'Число оборотов в минуту	13000',
+                'Потребляемая мощность (Вт)	1320',
+                'Глубина реза	41',
+                'Длина (мм)	235',
+                'Диаметр диска (мм)	125',
+                'Вес (кг)	3.1'
+            ],
+            image: 'img/STSP125.jpg',
+            price: "9"
+        },
+        /* =========== Строительный фен ==============*/
         {
             nameInstr: 'Строительный фен',
             brandInstr: 'Stanley',
@@ -214,6 +259,7 @@ $(document).ready(function () {
             image: 'img/STXH2000.jpg',
             price: "5"
         },
+        /* =========== Бетономешалка ==============*/
         {
             nameInstr: 'Бетономешалка',
             brandInstr: 'ECO',
@@ -229,6 +275,7 @@ $(document).ready(function () {
             image: 'img/cm125_eco.jpeg',
             price: "10"
         },
+        /* =========== виброплита ==============*/
         {
             nameInstr: 'Виброплита',
             brandInstr: 'Skiper',
@@ -244,6 +291,7 @@ $(document).ready(function () {
             image: 'img/skiper.jpeg',
             price: "18"
         },
+        /* =========== построитель плоскостей ==============*/
         {
             nameInstr: 'Построитель плоскостей',
             brandInstr: 'Ada',
@@ -258,7 +306,7 @@ $(document).ready(function () {
             ],
             image: 'img/ada2d.jpg',
             price: "12"
-        },
+        }
     ]};
 
 // Получаем шаблон

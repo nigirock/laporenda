@@ -35,6 +35,9 @@ span.navbar-brand.phone {
     text-align: center;
     margin-top: 5em;
 }
+.inner h3{
+    color: rgb(232, 198, 3);
+}
 .inner .btn{
     margin-top: 2em;
     font-size: 2em;
@@ -91,4 +94,21 @@ ul{
 /* ================ contacts ================== */
 .contacts{
     color: #fff;
+}
+
+@media screen and (min-width: 1366px){
+    .inner h3{
+        font-size: 3em;
+    }
+    .inner ul li{
+        font-size: 2em;
+    }
+}
+@media screen and (max-width: 1366px){
+    .inner h3{
+        font-size: 2em;
+    }
+    .inner ul li{
+        font-size: 1em;
+    }
 }
