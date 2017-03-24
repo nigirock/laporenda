@@ -295,7 +295,7 @@ $(document).ready(function () {
         {
             nameInstr: 'Построитель плоскостей',
             brandInstr: 'Ada',
-            modelInstr: '2D Basic Level',
+            modelInstr: '2D Basic',
             description:[
                 'Функции - строит горизонт. и вертик. линии, отвес',
                 'Точность измерений - ± 3/10 мм/м',
@@ -306,6 +306,19 @@ $(document).ready(function () {
             ],
             image: 'img/ada2d.jpg',
             price: "12"
+        },
+        /* =========== строительные леса ==============*/
+        {
+            nameInstr: 'Строительные леса',
+            description:[
+                'Компактная строительная вышка(леса)',
+                'Высота - 4,2м',
+                'Ширина - 0,7м',
+                'Длина - 1,2м',
+                'Легкая транспортировка'
+            ],
+            image: 'img/леса.jpg',
+            price: "5"
         }
     ]};
 
