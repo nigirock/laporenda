@@ -206,7 +206,7 @@ $(document).ready(function () {
                 'Диаметр хвостовика фрезы 6 мм, 8 мм',
                 'Вес 3.5 кг'
             ],
-            image: 'img/фрезер.jpg',
+            image: 'img/frezer.jpg',
             price: "9"
         },
         /* =========== Торцовочная пила ==============*/
@@ -317,7 +317,7 @@ $(document).ready(function () {
                 'Длина - 1,2м',
                 'Легкая транспортировка'
             ],
-            image: 'img/леса.jpg',
+            image: 'img/lesa.jpg',
             price: "5"
         }
     ]};

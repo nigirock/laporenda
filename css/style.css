@@ -69,6 +69,10 @@ ul{
     background-color: rgba(0, 0, 0, 0.83);
     padding: 0.5em;
     margin-bottom: 1em;
+    margin-top: 3em;
+}
+.instr_head h2{
+    margin-top: 2em;
 }
 .main_block{
     margin-top: 2em;
