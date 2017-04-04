@@ -1,3 +1,5 @@
+@import "bootstrap.min.css";
+
 body{
     background: url("../img/bg.jpg");
 }
@@ -34,9 +36,16 @@ span.navbar-brand.phone {
     width: 100%;
     text-align: center;
     margin-top: 5em;
+    padding-bottom: 1em;
 }
 .inner h3{
     color: rgb(232, 198, 3);
+}
+.yellow{
+    color: rgb(232, 198, 3);
+}
+.h4, h4{
+    font-size: 26px;
 }
 .inner .btn{
     margin-top: 2em;
@@ -60,6 +69,8 @@ span.navbar-brand.phone {
 }
 ul{
     list-style-type: none;
+    margin-bottom: 4em;
+    padding-left: 0;
 }
 
                 /* каталог */
@@ -117,6 +128,6 @@ ul{
         font-size: 2em;
     }
     .inner ul li{
-        font-size: 1em;
+        font-size: 1.5em;
     }
 }
