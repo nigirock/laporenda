@@ -23,6 +23,11 @@ body{
 span.navbar-brand.phone {
     color: #fff;
     font-size: 22px;
+    padding-right: 4em;
+}
+span.navbar-brand.email {
+    color: #fff;
+    font-size: 22px;
 }
 .bgvideo {
     z-index: -10;
