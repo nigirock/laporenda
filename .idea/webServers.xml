@@ -5,7 +5,7 @@
       <webServer id="4ac4c2ae-9ecf-40a7-8aae-6515fef3e453" name="laparenda" url="http://by112.atservers.net">
         <fileTransfer host="by112.atservers.net" port="21">
           <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" />
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
           </advancedOptions>
           <option name="port" value="21" />
         </fileTransfer>
