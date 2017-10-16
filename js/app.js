@@ -368,7 +368,7 @@ $(document).ready(function () {
                 'Вес - 43 кг'
             ],
             image: 'img/cm125_eco.jpeg',
-            price: "9"
+            price: "8"
         },
         /* =========== виброплита ==============*/
         {
