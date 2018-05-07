@@ -122,6 +122,11 @@ ul{
 .contacts{
     color: #fff;
 }
+.ip{
+    color: #d1c9d8;
+    padding: 1em;
+    text-align: center;
+}
 
 @media screen and (min-width: 1366px){
     .inner h3{
