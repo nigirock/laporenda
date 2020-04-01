@@ -102,7 +102,7 @@ ul{
     background-color: rgba(0, 0, 0, 0.67);
     margin-bottom: 2em;
     padding: 1em;
-    min-height: 35em;
+    min-height: 40em;
 }
 .main_block .price{
     padding-top: 1em;
@@ -121,6 +121,11 @@ ul{
 /* ================ contacts ================== */
 .contacts{
     color: #fff;
+}
+.ip{
+    color: #d1c9d8;
+    padding: 1em;
+    text-align: center;
 }
 
 @media screen and (min-width: 1366px){
